@@ -1,0 +1,64 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilos de encabezado */
+header {
+    background-color: white;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilos de secciones */
+.intro {
+    padding: 50px 0;
+}
+
+.services {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 30px;
+    color: orange;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.service {
+    background-color: orange;
+    color: white;
+    padding: 30px;
+}
+
+/* Estilos de pie de página */
+footer {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
